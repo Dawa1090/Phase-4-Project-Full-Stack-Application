@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import '../pages/styles.css';
 import '../pages/About.css';
-import "bootstrap-icons/font/bootstrap-icons.css";
+
 
 function Navbar({ currentUser }) {
     return (

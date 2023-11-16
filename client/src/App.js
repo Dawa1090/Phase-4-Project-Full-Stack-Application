@@ -5,8 +5,7 @@ import Home from "./pages/Home";
 import Coffee from "./pages/Coffee";
 import About from "./pages/About";
 import ReviewList from "./ReviewList";
-import HeroSection from "./components/HeroSection";
-import Footer from "./components/Footer";
+
 
 
 function App() {
@@ -72,7 +71,6 @@ function App() {
     <div className="App">
       <Router>
         <Navbar currentUser={currentUser} />
-        <HeroSection/>
         <Switch>
           <Route path="/" exact>
             <Home
@@ -92,7 +90,6 @@ function App() {
           <Route path="/about" exact component={About} />
         </Switch>
       </Router>
-    <Footer/>
     </div>
 
   );
